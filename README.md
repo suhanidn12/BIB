@@ -28,3 +28,5 @@ With this innovative technology, customers can scan, bill, and pay for products 
 The Built-in Billing Trolley is a game-changer for shopping – bringing automation, efficiency, and security to every purchase. Experience the next generation of retail shopping with faster checkouts, smarter billing, and effortless payments! 🔄🛒💡
 
 Welcome to the Future – Shop Smart, Save Time & Money! 🚀💳🏬
+
+My Project is the static view of the website which is made using HTML, CSS & JS which can be enhanced later on as we need and being integrated with the hardware..!
