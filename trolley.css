@@ -1,0 +1,147 @@
+body {
+    font-family:system-ui, -apple-system, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(253, 228, 252);
+}
+
+header {
+    background: #83224c;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 18px;
+}
+
+nav .logo img {
+    height: 60px;
+    border-radius: 0px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+section img {
+    max-width: 100%;
+}
+
+.thank-you {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #83224c;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.row img {
+    margin-left: auto;
+    border-radius: 20px;
+}
+
+.log img {
+    width: 300px;
+    border-radius: 20px;
+    border: double black;
+    margin-left: 600px;
+}
+
+.xyz {
+    margin-left: 180px;
+}
+
+.row {
+    margin-left: 180px;
+}
+
+.column {
+    border: groove black;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #04AA6D;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    box-shadow: 0 9px #999;
+    border: solid white 1px;
+    margin-left: 640px;
+    margin-top: 18px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.button:hover {background-color: #45a348}
